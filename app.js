@@ -1,6 +1,6 @@
-// Nomor WA admin (format 62xxx). Demo memakai WA Business Tamakarsa Dev,
-// jadi calon client yang mencoba booking langsung tersambung ke kami.
-const ADMIN_WA = '6285119541842';
+// Nomor WA admin (format 62xxx). Kosong = WhatsApp minta pilih kontak sendiri,
+// dipakai karena usaha ini fiktif. Isi dengan nomor asli untuk situs client.
+const ADMIN_WA = '';
 const SOPIR_PER_HARI = 200000;
 
 const rp = n => 'Rp ' + n.toLocaleString('id-ID');
